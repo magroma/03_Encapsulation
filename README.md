@@ -1,3 +1,3 @@
 # 03_Encapsulation
 
-### Datenkapselung
+### Datenkapselung in Java
