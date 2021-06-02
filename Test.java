@@ -4,7 +4,12 @@ public class Test {
 
     // Getter
     public String getTestStr() {
-        return testStr;
+        if (this.hasPermission()) {
+            return testStr;    
+        } else {
+            return "Sorry, no permission";
+        }
+        
     }
 
     // Setter
@@ -12,7 +17,10 @@ public class Test {
         this.testStr = testStr;
     }
 
-
+    private boolean hasPermission() {
+        return false;
+        
+    }
     
 
 }
